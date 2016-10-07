@@ -1,17 +1,23 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-    </head>
-    <body>
-        <?php
-        // put your code here
-        ?>
-    </body>
+<head><title></title></head>
+<body>
+    <form action="separar.php" method="POST">
+        Codigo:
+        <input type="text" name="word"/><br/>
+        Nombre:
+        <input type="text" name="number" /><br/>
+        <input type="submit" value="Dividir">
+        Precio:
+        <input type="text" name="word"/><br/>
+        Cantidad:
+        <input type="text" name="number" /><br/>
+        <input type="submit" value="Dividir">
+        Marca:
+        <input type="text" name="number" /><br/>
+        <input type="submit" value="Dividir">
+        Marca:
+        <input type="text" name="number" /><br/>
+        <input type="submit" value="Dividir">
+    </form>
+</body>
 </html>
